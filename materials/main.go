@@ -2,6 +2,7 @@ package main
 
 import (
 	"apiserver/arrays"
+	"apiserver/maps"
 	"apiserver/pointers"
 	"apiserver/slice"
 	"apiserver/structs"
@@ -9,6 +10,7 @@ import (
 )
 
 func main() {
+	maps.GetMap()
 	slice.GetSlice()
 	structs.GetStruct()
 	times.GetTime()
